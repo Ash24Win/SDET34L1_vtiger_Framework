@@ -49,15 +49,15 @@ public class BaseClass {
 	public void beforeclassTest() throws IOException {
 		
 		String url = GeneralFileUtility.getDataFromPropertyFile("url");
-		//username = GeneralFileUtility.getDataFromPropertyFile("userName");
-		username=System.getProperty("USERNAME");
-		System.out.println(username);
-		//password = GeneralFileUtility.getDataFromPropertyFile("password");
-		password=System.getProperty("PASSWORD");
-		System.out.println(password);
-		//String browser = GeneralFileUtility.getDataFromPropertyFile("browser");
-		browser=System.getProperty("BROWSER");
-		System.out.println(browser);
+		username = GeneralFileUtility.getDataFromPropertyFile("userName");
+		//username=System.getProperty("USERNAME");
+		//System.out.println(username);
+		password = GeneralFileUtility.getDataFromPropertyFile("password");
+		//password=System.getProperty("PASSWORD");
+		//System.out.println(password);
+		String browser = GeneralFileUtility.getDataFromPropertyFile("browser");
+		//browser=System.getProperty("BROWSER");
+		//System.out.println(browser);
 		String timeout = GeneralFileUtility.getDataFromPropertyFile("timeout");
 		randomNumber = GeneralJavaUtility.getRandomNumber(100);
 		Long longTimeout = GeneralJavaUtility.stringToLong(timeout);

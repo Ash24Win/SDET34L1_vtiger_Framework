@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.vtiger.organizationTest.CreateOrganizationAndHandleDropDownTest">
+      <class name="com.vtiger.documentsTest.CreateDocumentsTest">
         <methods>
           <include name="afterClass"/>
+          <include name="createDocumentsTest"/>
           <include name="beforeclassTest"/>
           <include name="afterMethod"/>
           <include name="afterSuite"/>
-          <include name="createOrganizationAndHandleDropDownTest"/>
           <include name="beforeMethod"/>
           <include name="beforesuiteTest"/>
         </methods>
-      </class> <!-- com.vtiger.organizationTest.CreateOrganizationAndHandleDropDownTest -->
+      </class> <!-- com.vtiger.documentsTest.CreateDocumentsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
